@@ -41,6 +41,8 @@ body {
     overflow: hidden;
 }
 
+/* NavBar Styles */
+
 header:hover {
     background-color: var(--2);
 }
@@ -49,16 +51,10 @@ nav {
     width: 100%;
 }
 
-
-/* Menu */
-
-.Menus>li {
-    display: inline-block;
-    position: relative;
-}
-
 .Menus>li {
     padding: 10px;
+    display: inline-block;
+    position: relative;
 }
 
 .Menus>li>a {
@@ -71,8 +67,7 @@ header:hover>nav>ul>li>a {
     color: var(--1);
 }
 
-
-/* SubMenus */
+/* Navbar - SubMenus Styles */
 
 .SubMenu {
     display: none;
@@ -100,8 +95,7 @@ header:hover>nav>ul>li>a {
     background-color: var(--4);
 }
 
-
-/* Main */
+/* Main Styles */
 
 main {
     width: 100%;
